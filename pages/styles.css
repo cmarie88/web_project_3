@@ -140,8 +140,19 @@
   line-height: 1.5;
 }
 
+.photo-grid {
+  margin: 0 auto;
+  padding: 92px 0 0;
+}
 
+.photo-grid__container {
+  list-style: none;
+}
 
+.photo-grid__item {
+  max-width: 352px;
+  max-height: 264px;
+}
 
 
 
