@@ -1,0 +1,10 @@
+.header__lang-link {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+
+.header__lang-link_current {
+    text-decoration: underline;
+}

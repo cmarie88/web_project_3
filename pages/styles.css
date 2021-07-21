@@ -1,0 +1,78 @@
+.page {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    background-color: #2a2c2f;
+    color: #fff;
+    padding: 0;
+  }
+/*header styles*/
+/*.header__container {
+    display: flex;
+}*/
+.logo {
+    list-style: none;
+    width: 190px;
+    height: 44px;
+}
+
+.header__lang-link {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+}
+
+.header__lang-link_current {
+    text-decoration: underline;
+}
+
+/*lead styles*/
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*TODO: change max-width to calc function or something not concrete)*/
+    max-width: 984px;
+    margin: 0 auto;
+}
+
+.lead__image {
+    max-width: 984px;
+    max-height: 615px;
+}
+
+.lead__title {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  text-align: center;
+  /*TODO: change max-width to calc function or something not concrete)*/
+  max-width: 750px;
+/* or 104% */
+}
+
+.lead__subtitle {
+font-weight: normal;
+font-size: 30px;
+line-height: 36px;
+/* or 120% */
+text-align: center;
+/*TODO: change max-width to calc function or something not concrete)*/
+max-width: 580px;
+}
+
+.lead__caption {
+  align-self: flex-start;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height, or 140% */
+  letter-spacing: 0.15em;
+
+
+
+}
