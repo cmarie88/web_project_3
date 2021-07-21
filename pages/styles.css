@@ -16,11 +16,22 @@
     height: 44px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 984px;
+  margin: 0 auto;
+  /*TODO: change padding so its all 4 sides, others are 0*/
+  padding-top: 34px;
+}
+
 .header__lang-link {
     list-style: none;
     text-decoration: none;
     color: #fff;
-    display: flex;
+    display: inline;
+     /*TODO: change padding so its all 4 sides, others are 0*/
+    padding-right: 18px;
 }
 
 .header__lang-link_current {
