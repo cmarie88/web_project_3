@@ -1,25 +1,25 @@
 
 @font-face {
   src: url(./fonts/Inter-Regular.woff);
-  font-family: "Inter-Regular";
+  font-family: "Inter";
   font-weight: normal;
 }
 
 @font-face {
   src: url(./fonts/Inter-Bold.woff);
-  font-family: "Inter-Bold";
+  font-family: "Inter";
   font-weight: bold;
 }
 @font-face {
   src: url(./fonts/Inter-Black.woff);
-  font-family: "Inter-Black";
+  font-family: "Inter";
   font-weight: bolder;
 }
 
 .page {
   max-width: 1280px;
   margin: 0 auto;
-  font-family: 'Inter-Regular', Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   background-color: #2a2c2f;
   color: #fff;
   padding: 0;
