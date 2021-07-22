@@ -291,3 +291,39 @@ line-height: 1.6;
   opacity: 0.5;
 }
 
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 92%;
+  margin: 0 auto;
+  padding: 92px 0 24px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__link {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 10px 0 0;
+}
+
+.footer__copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+}
+
+
+
+
+
