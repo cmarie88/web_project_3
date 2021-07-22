@@ -1,20 +1,20 @@
-/*When I used this code it turned everything on the page bold...no normal weights
+
 @font-face {
-  src: url(./fonts/Inter-Regular.ttf) format('truetype');
+  src: url(./fonts/Inter/static/Inter-Regular.ttf);
   font-family: "Inter";
   font-weight: normal;
 }
 
 @font-face {
-  src: url(./fonts/Inter-Bold.ttf) format('truetype');
+  src: url(./fonts/Inter/static/Inter-Bold.ttf);
   font-family: "Inter";
   font-weight: bold;
 }
 @font-face {
-  src: url(./fonts/Inter-Black.ttf) format('truetype');
+  src: url(./fonts/Inter/static/Inter-Black.ttf);
   font-family: "Inter";
   font-weight: bolder;
-}*/
+}
 
 .page {
   max-width: 1280px;
