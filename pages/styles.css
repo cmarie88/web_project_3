@@ -1,18 +1,18 @@
 @font-face {
   src: url(../vendor/fonts/Inter-Regular.woff);
   font-family: "Inter";
-  font-weight: normal;
+  font-weight: 400;
 }
 
 @font-face {
   src: url(../vendor/fonts/Inter-Bold.woff);
   font-family: "Inter";
-  font-weight: bold;
+  font-weight: 700;
 }
 @font-face {
   src: url(../vendor/fonts/Inter-Black.woff);
   font-family: "Inter";
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .page {
@@ -48,7 +48,7 @@
   color: #fff;
   display: inline;
   padding: 0 8px 0 0;
-  font-weight:normal;
+  font-weight: normal;
   font-size: 24px;
   line-height: 28px;
 }
@@ -189,8 +189,7 @@
   padding: 80px 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows
-  row-gap: 48px;: 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
   column-gap: 40px;
   row-gap: 48px;
 }
@@ -202,12 +201,21 @@ line-height: 1;
 margin: 0;
 }
 
+/*this shadow effect is not working*/
+.place__title:hover {
+  border: 1px solid #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .place__image {
   max-width: 100%;
   max-height: 100%;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .place__website {
@@ -233,6 +241,9 @@ color: #fff;
 text-decoration-line: underline;
 }
 
+.place__link:hover {
+  opacity: .8;
+}
 .place__paragraphs {
 
 }
@@ -250,6 +261,15 @@ line-height: 1.6;
   padding: 92px 0 0;
   /*background-image: url('../images/cover-route-66.jpg');
   background-size: cover;*/
+}
+
+.cover__link {
+  text-decoration: none;
+}
+
+.cover__overlay:hover {
+  background: #2a2c2f;
+  opacity: .3;
 }
 
 .cover__title {
@@ -277,6 +297,7 @@ line-height: 1.6;
   z-index: 1;
   width: 25%;
   text-align: center;
+  color: #fff;
 }
 
 .cover__background {
@@ -285,15 +306,28 @@ line-height: 1.6;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1;
-  background: #2a2c2f;
-  opacity: 0.5;
+  z-index: 0;
+  /*background: #2a2c2f;
+  opacity: 0.3;*/
 }
+
+.cover__overlay {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  background: #2a2c2f;
+  opacity: .8;
+}
+
 
 
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   max-width: 92%;
   margin: 0 auto;
   padding: 92px 0 24px;
@@ -320,6 +354,8 @@ line-height: 1.6;
   font-weight: normal;
   font-size: 14px;
   line-height: 1;
+  margin: 0;
+  padding: 0;
 }
 
 
