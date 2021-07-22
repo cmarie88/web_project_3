@@ -1,17 +1,17 @@
 
 @font-face {
-  src: url(./fonts/Inter/static/Inter-Regular.ttf);
+  src: url(./fonts/Inter-Regular.ttf);
   font-family: "Inter-Regular";
   font-weight: normal;
 }
 
 @font-face {
-  src: url(./fonts/Inter/static/Inter-Bold.ttf);
+  src: url(./fonts/Inter-Bold.ttf);
   font-family: "Inter-Bold";
   font-weight: bold;
 }
 @font-face {
-  src: url(./fonts/Inter/static/Inter-Black.ttf);
+  src: url(./fonts/Inter-Black.ttf);
   font-family: "Inter-Black";
   font-weight: bolder;
 }
