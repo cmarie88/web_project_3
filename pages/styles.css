@@ -256,7 +256,9 @@ line-height: 1.6;
 .cover__overlay:hover {
   background: #2a2c2f;
   opacity: .3;
+  z-index: 2;
 }
+
 
 .cover__title {
   font-weight: 900;
