@@ -95,6 +95,7 @@
 
 .lead__image {
   padding: 46px 0 0;/*TODO: make responsive?*/
+  margin: 0;
 }
 
 .lead__caption {
@@ -104,7 +105,7 @@
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 0.15em;
-  padding: 26px 0 0;/*TODO: make responsive?*/
+  padding: 26px 0 0 22px;/*TODO: make responsive?*/
   margin: 0;
 }
 
