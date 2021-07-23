@@ -205,7 +205,7 @@ margin: 0;
   max-width: 100%;
   max-height: 100%;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   border: 1px solid #000000;
   box-sizing: border-box;
@@ -347,8 +347,7 @@ line-height: 1.6;
 
 
 /*media queries*/
-/*use object-fit and width
- 100% with padding-bottom: 100% for image blocks to fit vertically and horizontally*/
+
 /*320*/
 @media screen and (max-width: 320px) {
 .logo {
@@ -365,8 +364,9 @@ line-height: 1.6;
 }
 
 .lead {
-  max-width: 95vw;
+  max-width: none;
 }
+
 .lead__title {
   font-size: 40px;
   max-width: none;
@@ -382,7 +382,6 @@ line-height: 1.6;
   width: 100vw;
   margin: 0 calc(-50vw + 50%);
 }
-
 .lead__caption {
   padding: 8px 0 0;
 }
@@ -471,17 +470,28 @@ line-height: 1.6;
 }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px)/*and (min-width: 321px)*/{
 /*changes at this screen size:
 intro, places, photo-grid: side margins shrink
 photo-grid: changes to 2 columns
 intro image: side margins leave
 all content gets a little smaller
 font sizes change*/
+
+
+.lead-title {
+  max-width: 90%;
+}
+
+.photo-grid {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px)/*and (min-width: 769px)*/ {
 /*changes at this screen size:
 intro, places: side margins shrink
 photo-grid: changes to 3 columns
@@ -521,9 +531,6 @@ font sizes change?*/
   max-width: 90vw;
 }
 
-.place__image{
-  height: auto;
-}
 
 .cover {
   max-width: 100vw;
