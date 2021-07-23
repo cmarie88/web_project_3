@@ -459,15 +459,11 @@ font sizes change?*/
 }
 
 /*320*/
-/*
+
 @media screen and (max-width: 320px) {
 .logo {
   width: 156px;
   height: 36px;
-}
-
-.header {
-  justify-content: none;
 }
 
 .header__lang-link {
@@ -487,12 +483,9 @@ font sizes change?*/
   max-width: 90%;
 }
 
-
 .lead__caption {
-  padding: 8px 0 0;
+  padding: 8px 0 0 16px;
 }
-
-
 
 .intro__title {
   font-size: 32px;
@@ -549,8 +542,7 @@ font sizes change?*/
 
 .cover__subtitle {
   font-size: 14px;
-  line-height: 1:
-  padding: 16px 0 0;
+  width: 90%;
 }
 
 .footer {
@@ -572,6 +564,6 @@ font sizes change?*/
   padding: 48px 0 24px;
 }
 }
-*/
+
 
 
