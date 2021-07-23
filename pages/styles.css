@@ -363,6 +363,21 @@ line-height: 1.6;
  100% with padding-bottom: 100% for image blocks to fit vertically and horizontally*/
 /*320*/
 @media screen and (max-width: 320px) {
+.logo {
+  width: 156px;
+  height: 36px;
+}
+
+.header {
+  justify-content: none;
+}
+
+.header__lang-link {
+  font-size: 18px;
+  padding: 0;
+}
+
+
 .places {
   max-width: 100vw;
   margin: 0 auto;
@@ -375,9 +390,9 @@ line-height: 1.6;
   }
 
 .place__title {
-    font-size: 32px;
-    padding: 0 16px 0;
-  }
+  font-size: 32px;
+  padding: 0 16px 0;
+}
 
 .place__url-heading {
   line-height: 1;
@@ -397,8 +412,9 @@ line-height: 1.6;
 }
 }
 
+@media screen and (max-width: 768px) {
 
-
+}
 
 
 
