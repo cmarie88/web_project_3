@@ -14,7 +14,7 @@
   font-family: "Inter";
   font-weight: 900;
 }
-
+/*
 .page {
   max-width: 1280px;
   margin: 0 auto;
@@ -36,7 +36,6 @@
   justify-content: space-between;
   max-width: 80%;
   margin: 0 auto;
-  /*TODO: change padding so its all 4 sides, others are 0*/
   padding: 34px 0 0;
 }
 
@@ -56,7 +55,7 @@
 
 
 /*lead styles*/
-
+/*
 .lead {
   display: flex;
   flex-direction: column;
@@ -76,9 +75,8 @@
   font-size: 96px;
   line-height: 1;
   text-align: center;
-  /*max-width: 80%;*/
   margin: 0;
-  padding: 58px 0 0;/*mke responsive but how?*/
+  padding: 58px 0 0;
 }
 
 .lead__subtitle {
@@ -87,11 +85,11 @@
   text-align: center;
   max-width: 60%;
   margin: 0;
-  padding: 32px 0 0;/*TODO: make responsive?*/
+  padding: 32px 0 0;
 }
 
 .lead__image {
-  padding: 46px 0 0;/*TODO: make responsive?*/
+  padding: 46px 0 0;
   margin: 0;
 }
 
@@ -101,7 +99,7 @@
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 0.15em;
-  padding: 26px 0 0 22px;/*TODO: make responsive?*/
+  padding: 26px 0 0 22px;
   margin: 0;
 }
 
@@ -156,7 +154,7 @@
 .intro__list-item_bold {
   font-weight: bold;
 }
-
+*/
 .photo-grid {
   max-width: 92%;
   margin: 0 auto;
