@@ -26,3 +26,4 @@ This is a project about traveling across the US. We've made it so all the elemen
 Front-end web development of single webpage based on a specific design brief.    
 
 **GitHub Pages Link**
+https://cmarie88.github.io/web_project_3/
