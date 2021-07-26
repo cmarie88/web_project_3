@@ -404,6 +404,7 @@ font sizes change?*/
 
 .lead-title {
   max-width: none;
+  padding: 50px 0 0;
 }
 
 .lead__image {
@@ -444,6 +445,9 @@ font sizes change?*/
   font-size: 16px;
 }
 
+.cover {
+  padding: 89px 0 0;
+}
 .cover__title {
   width: 99%;
 }
@@ -480,7 +484,6 @@ font sizes change?*/
 
 .lead__title {
   font-size: 40px;
-  padding: 50px 0 0;
 }
 
 .lead__subtitle {
