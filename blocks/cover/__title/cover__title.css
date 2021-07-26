@@ -11,3 +11,18 @@
   z-index: 1;
   width: 80%;
 }
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    width: 99%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    width: 99%;
+  }
+
+}

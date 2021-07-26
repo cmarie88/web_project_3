@@ -351,7 +351,7 @@ photo-grid: changes to 3 columns
 places: website moves up to baseline(top)
 cover: side margins leave
 all content gets a little smaller
-font sizes change?*/
+font sizes change?
 
 .header {
   max-width: 90vw;
@@ -391,7 +391,7 @@ font sizes change?*/
   margin: 0 calc(-50vw + 50%);
   padding: 92px 0 0;
 }
-
+*/
 }
 
 @media screen and (max-width: 768px){
@@ -400,7 +400,7 @@ font sizes change?*/
   photo-grid: changes to 2 columns
   intro image: side margins leave
   all content gets a little smaller
-  font sizes change*/
+  font sizes change
 
 .lead-title {
   max-width: none;
@@ -426,6 +426,8 @@ font sizes change?*/
   max-width: 92vw;
   padding: 10px 0 0;
 }
+
+
 .place {
   padding: 70px 0 0;
   grid-template-rows: .65fr 3fr;
@@ -448,6 +450,7 @@ font sizes change?*/
 .cover {
   padding: 89px 0 0;
 }
+
 .cover__title {
   width: 99%;
 }
@@ -456,6 +459,7 @@ font sizes change?*/
   width: 40%;
   padding: 30px 0 0;
 }
+*/
 }
 
 /*320*/
@@ -468,7 +472,7 @@ font sizes change?*/
   photo-grid and places become single column
   in places, order of elements change
   footer links stack vertically and font grows
-  */
+
 .logo {
   width: 156px;
   height: 36px;
@@ -562,6 +566,7 @@ font sizes change?*/
   width: 90%;
 }
 
+
 .footer {
   flex-direction: column;
   padding: 32px 0 0;
@@ -580,6 +585,7 @@ font sizes change?*/
 .footer__copyright {
   padding: 48px 0 24px;
 }
+*/
 }
 
 

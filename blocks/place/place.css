@@ -6,3 +6,23 @@
   column-gap: 40px;
   row-gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .place {
+    padding: 70px 0 0;
+    grid-template-rows: .65fr 3fr;
+    column-gap: 28px;
+    row-gap: 20px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    object-fit: cover;
+    padding: 48px 0 0;
+  }
+
+}

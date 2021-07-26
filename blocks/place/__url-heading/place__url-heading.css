@@ -5,3 +5,10 @@
   color: #aaa;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 320px){
+  .place__url-heading {
+    line-height: 1;
+  }
+
+}

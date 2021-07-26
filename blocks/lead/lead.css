@@ -6,3 +6,20 @@
   max-width: 78%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    max-width: 95vw;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+  .lead {
+    max-width: none;
+  }
+
+}
