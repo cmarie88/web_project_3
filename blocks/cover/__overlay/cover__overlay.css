@@ -1,4 +1,4 @@
-.cover__overlay {
+/*.cover__overlay {
   opacity: .8;
   z-index: -1;
   transition: opacity  .3s ease;
@@ -7,7 +7,7 @@
   opacity: .3;
   z-index: -1;
   transition: opacity #2a2c2f .3s ease;
-}
+}*/
 
 
 
