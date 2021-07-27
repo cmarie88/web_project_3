@@ -1,13 +1,28 @@
 .cover__overlay::after {
-  z-index: 1;
+  z-index: 2;
   background: #2a2c2f;
-  opacity: .8;
+  opacity: .3;
   transform: scale(0);
 }
 
 .cover__overlay:hover {
   background: #2a2c2f;
-  opacity: .3;
+  opacity: .8;
   z-index: 2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
