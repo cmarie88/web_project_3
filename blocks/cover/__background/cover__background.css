@@ -16,12 +16,11 @@
   left: 0;
   bottom: 0;
   right: 0;
+  background-color: #2a2c2f;
   opacity: .3;
   transition: opacity #2a2c2f .3s ease;
 }
 
-/*.cover__background:hover::before {
-  content: '';
+.cover__background:hover {
   opacity: .8;
-  transition: opacity #2a2c2f .3s ease;
-}*/
+}
