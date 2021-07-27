@@ -10,11 +10,16 @@
 }
 
 .cover__background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   opacity: .8;
   z-index: 2;
   transition: opacity  .3s ease;
 }
 .cover__background:hover:before {
+  content: '';
   opacity: .3;
   z-index: 2;
   transition: opacity #2a2c2f .3s ease;
