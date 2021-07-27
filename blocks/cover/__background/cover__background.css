@@ -20,8 +20,8 @@
   transition: opacity #2a2c2f .3s ease;
 }
 
-.cover__background:hover::before {
+/*.cover__background:hover::before {
   content: '';
   opacity: .8;
   transition: opacity #2a2c2f .3s ease;
-}
+}*/
