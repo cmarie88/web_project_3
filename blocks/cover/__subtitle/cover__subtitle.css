@@ -1,14 +1,12 @@
 .cover__subtitle {
   font-size: 18px;
   line-height: 1.2;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 1;
   width: 25%;
   text-align: center;
   color: #fff;
+  margin: 0;
+  padding: 32px 0 0;
 }
 
 @media screen and (max-width: 768px) {
