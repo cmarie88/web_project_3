@@ -23,4 +23,5 @@
 
 .cover__background:hover {
   opacity: .8;
+  z-index: 1;
 }
