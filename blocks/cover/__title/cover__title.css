@@ -4,8 +4,7 @@
   line-height: 1;
   text-align: center;
   color: #fffdfd;
-  position: relative;
-  z-index: 2;
+  z-index: 1;
   width: 80%;
   margin: 0;
   padding: 20% 0 0;
