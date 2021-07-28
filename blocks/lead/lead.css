@@ -11,15 +11,10 @@
   .lead {
     max-width: 95vw;
   }
-
 }
-
-
-
 
 @media screen and (max-width: 320px) {
   .lead {
     max-width: none;
   }
-
 }
