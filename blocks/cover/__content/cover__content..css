@@ -14,7 +14,7 @@
   min-height: 100vh;
   background-image: url(../../../images/cover-route-66.jpg);
   background-repeat: no-repeat;
-  background-size: ccover;
+  background-size: cover;
   object-fit: cover;
 }
 
@@ -30,6 +30,6 @@
   transition: opacity .3s ease;
 }
 
-.cover__content:hover {
+.cover__content:hover::before {
   opacity: .8;
 }
