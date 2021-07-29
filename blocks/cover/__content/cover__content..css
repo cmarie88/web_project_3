@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+  min-height: 740px;
 }
 
 .cover__content::before {
@@ -27,4 +28,22 @@
 
 .cover__content:hover::before {
   opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__content {
+    height: 86%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__content {
+    max-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__content {
+    max-height: 200px;
+  }
 }
