@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+.place__paragraph:first-of-type {
+  padding-top: 0;
+}
+
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
@@ -13,6 +17,10 @@
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    padding: 0 16px 0;
-    }
+    padding: 25px 16px 0;
+  }
+
+  .place__paragraph:first-of-type {
+    padding: 0px 16px 0;
+  }
 }
