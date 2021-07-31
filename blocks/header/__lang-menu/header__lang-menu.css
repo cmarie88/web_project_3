@@ -1,4 +1,6 @@
-.list-container {
+.header__lang-menu {
   display: flex;
-  width: 18%;
+  list-style: none;
+  margin: 0;
+  gap: 18px;
 }

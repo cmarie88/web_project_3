@@ -1,9 +1,10 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 77vw;
     margin: 0 auto;
-    padding: 34px 0 0;
+    padding: 20px 16px 0;
   }
 
 @media screen and (max-width: 1024px) {
