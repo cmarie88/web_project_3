@@ -4,9 +4,12 @@
     align-items: center;
     max-width: 77vw;
     margin: 0 auto;
-    padding: 20px 16px 0;
+    padding: 20px 16px 50px;
   }
 
+@media screen and (min-width 768px {
+  padding: 34px 24px 50px;
+}
 @media screen and (max-width: 1024px) {
   .header {
     max-width: 90vw;
