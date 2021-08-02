@@ -2,9 +2,15 @@
   padding: 80px 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: .65fr 4fr;
   column-gap: 40px;
-  row-gap: 10px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    column-gap: 32px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -14,7 +20,6 @@
     column-gap: 28px;
     row-gap: 20px;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -24,5 +29,4 @@
     object-fit: cover;
     padding: 48px 0 0;
   }
-
 }

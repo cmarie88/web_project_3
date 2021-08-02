@@ -1,7 +1,7 @@
 .places {
   /*max-width: 77vw;*/
   margin: 0 auto;
-  padding:
+  padding: 0 148px 0;
 }
 
 .places:last-child {
@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 90vw;
+    padding: 0 48px 0;
   }
 }
 
