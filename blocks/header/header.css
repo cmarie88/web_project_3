@@ -2,20 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 77vw;
     margin: 0 auto;
-    padding: 20px 16px 50px;
+    padding: 20px 148px 50px;
   }
+
+@media screen and (max-width: 1024px) {
+  .header {
+    padding: 34px 48px 50px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .header {
-    max-width: 94vw;
     padding: 34px 24px 50px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 767px) {
   .header {
-    max-width: 90vw;
+    padding: 20px 16px 50px;
   }
 }
