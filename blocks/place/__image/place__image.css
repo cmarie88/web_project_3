@@ -16,6 +16,7 @@
     padding: 10px 0 10px 0;
     object-position: center;
     }
+}
 
 @media screen and (max-width: 340px) {
   .place__image {
