@@ -5,6 +5,11 @@
   grid-template-rows: .65fr 4fr;
   column-gap: 40px;
   row-gap: 48px;
+  max-height: 700px;
+}
+
+.place:first-of-type {
+  padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
@@ -18,7 +23,7 @@
     padding: 70px 0 0;
     grid-template-rows: .65fr 3fr;
     column-gap: 28px;
-    row-gap: 20px;
+    row-gap: 48px;
   }
 }
 
@@ -28,5 +33,8 @@
     flex-direction: column;
     object-fit: cover;
     padding: 48px 0 0;
+    max-height: none;
+    column-gap: 0;
+    row-gap: 30px;
   }
 }
